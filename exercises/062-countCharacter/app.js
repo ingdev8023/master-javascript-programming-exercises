@@ -1,5 +1,7 @@
 function countCharacter(str, char) {
     // your code here
+    let newStr = str.split("").filter(a=> a===char)
+    return newStr.length
     
 }
 
